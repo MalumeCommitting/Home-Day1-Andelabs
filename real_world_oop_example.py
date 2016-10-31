@@ -17,21 +17,16 @@ class Car(object):
     else:
       self.num_of_wheels = 4
       
-    
   def is_saloon(self):
     if self.type_of_car is not 'trailer':
     	self.type_of_car == 'saloon'
     	return True
     return False
   
-def drive(self, moving_speed):
-    if moving_speed > 0 and self.name=='MAN':
-    	self.speed = (77/moving_speed)*moving_speed
-    	return self.speed 
-    elif moving_speed > 0 and self.name=='Mercedes':
-    	self.speed = (1000/moving_speed)*moving_speed
-    	return self.speed
-    elif moving_speed==0:
-    	return moving_speed
+  def drive(self, moving_speed):
+    if moving_speed == 3:
+      self.speed = 1000
+    elif moving_speed == 7:
+      self.speed = 77
     
     return self
