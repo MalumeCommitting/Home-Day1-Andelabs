@@ -24,5 +24,3 @@ def data_type(_arg_):
 			return None
 		else:
 			return _arg_[2]
-
-print (data_type(_arg_ = False))
