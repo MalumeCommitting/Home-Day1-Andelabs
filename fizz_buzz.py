@@ -11,5 +11,3 @@ def fizz_buzz(data):
   
    else:
      return data
-
-print (fizz_buzz(509))
